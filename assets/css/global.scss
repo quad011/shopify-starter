@@ -1,0 +1,29 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'RedHatDisplay';
+  font-size: 4.8vw; // 18px
+  @screen sm {
+    font-size: 2.343vw; //18px
+  }
+  @screen lg {
+    font-size: 0.9375vw; // 18px
+  }
+}
+
+img {
+  object-fit: cover;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+:focus {
+  outline: none;
+}

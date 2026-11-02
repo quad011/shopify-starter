@@ -1,0 +1,20 @@
+@layer utilities {
+  .row {
+    @apply flex flex-wrap flex-row;
+  }
+  .center {
+    @apply left-1/2	top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+  .center-y {
+    @apply top-1/2 -translate-y-1/2;
+  }
+  .center-x {
+    @apply left-1/2 -translate-x-1/2;
+  }
+  .narrow {
+    @apply w-full md:w-2/3;
+  }
+  .flex-center {
+    @apply items-center justify-center;
+  }
+}

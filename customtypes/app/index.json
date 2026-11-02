@@ -1,0 +1,62 @@
+{
+  "format": "custom",
+  "id": "app",
+  "label": "App",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "main_navigation": {
+        "type": "Group",
+        "config": {
+          "label": "Main Navigation",
+          "repeat": true,
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null,
+                "allowTargetBlank": true,
+                "allowText": true,
+                "repeat": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "Footer": {
+      "footer_text": {
+        "type": "Text",
+        "config": {
+          "label": "Footer Text",
+          "placeholder": ""
+        }
+      },
+      "phone": {
+        "type": "Link",
+        "config": {
+          "label": "Phone",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": false
+        }
+      },
+      "mail": {
+        "type": "Link",
+        "config": {
+          "label": "Mail",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": false
+        }
+      }
+    }
+  }
+}
